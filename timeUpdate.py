@@ -1,3 +1,23 @@
+# -----------------------------------------------------------------------------
+# OBS Studio Python Script
+# 
+# 特定のテキストソースを現在時間に更新するスクリプト
+# 
+# プロパティの説明 :
+#     Text Source : 更新対象のテキストソース名
+# Update Rate(ms) : 更新周期(ms)
+#          Format : 更新内容のフォーマット
+#                 : フォーマットは以下を参照
+#                 : 
+#                 : strftime() と strptime() の書式コード
+#                 : https://docs.python.org/ja/3/library/datetime.html#strftime-and-strptime-format-codes
+# 
+# 動作確認環境 :
+#           OS : Windows10 Pro 64bit
+#          OBS : OBS Studio 25.0.4 (64bit Windows)
+#       Python : python-3.6.8-embed-amd64
+# 
+# -----------------------------------------------------------------------------
 
 import obspython as obs
 import datetime
@@ -5,7 +25,7 @@ import datetime
 source_name = ""
 g_time_fmt = "%Y-%m-%d %H:%M:%S"
 
-# ------------------------------------------------------------
+# -----------------------------------------------------------------------------
 
 
 def refresh_pressed(props, prop):
@@ -27,7 +47,7 @@ def update_text():
         obs.obs_data_release(settings)
         obs.obs_source_release(source)
 
-# ------------------------------------------------------------
+# -----------------------------------------------------------------------------
 
 
 def script_properties():
