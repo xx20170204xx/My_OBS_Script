@@ -69,7 +69,7 @@ def script_properties():
     obs.obs_properties_add_int(props,
                                "update_rate",
                                "Update Rate(ms)",
-                               1000,
+                               500,
                                10000,
                                1)
 
