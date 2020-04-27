@@ -17,6 +17,7 @@
 #          OBS : OBS Studio 25.0.4 (64bit Windows)
 #       Python : python-3.6.8-embed-amd64
 # 
+# URL：https://github.com/xx20170204xx/My_OBS_Script
 # -----------------------------------------------------------------------------
 
 import obspython as obs
