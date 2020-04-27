@@ -28,6 +28,3 @@ Python Settings(Pythonの設定)タブのPython Install Pathの設定のBrowse(�
 メニューからTools(ツール)->Scripts(スクリプト)をクリック  
 Scripts(スクリプト)タブの「＋」をクリック  
 設置したファイルを選択  
-
-本文本文本文 [[^注釈]]  
- [[^注釈]]:注釈テキスト注釈テキスト注釈テキスト
